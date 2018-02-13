@@ -408,6 +408,7 @@ class MTurkRecruiter(Recruiter):
             except DuplicateQualificationNameError:
                 pass
 
+
 # TODO: expiring HITs on shutdown becomes more complicated here
 # because we have to go back and find all the HITs that have been
 # created. One solution could be to expire the last HIT when creating
